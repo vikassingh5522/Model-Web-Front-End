@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 *{
     margin: 0;
@@ -29,4 +30,37 @@ html,body{
     background-color: #1010eb;
     position: absolute;
     left:50%;
+=======
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#box{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background-color: #eb1010;
+    
+}
+#box2{
+    /* position: relative; */
+    width: 300px;
+    height: 200px;
+    background-color: #2ec930;
+}
+#box3{
+    width: 40px;
+    height: 40px;
+    background-color: #1010eb;
+    position: absolute;
+    left:50%;
+>>>>>>> 88907b280a4d4b291a0ba316f19496358b76356f
 }
