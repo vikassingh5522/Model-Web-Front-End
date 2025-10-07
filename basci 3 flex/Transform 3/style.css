@@ -1,0 +1,48 @@
+/* Universal selector - applies to every element */
+* {
+    margin: 0; /* Removes default space outside elements */
+    padding: 0; /* Removes default space inside elements */
+    box-sizing: border-box; /* Includes padding and border in total width/height */
+    font-family: 'Times New Roman', Times, serif; /* Sets default font for all text */
+}
+
+/* HTML and body styling */
+html, body {
+    height: 100%; /* Makes them take full viewport height */
+    width: 100%; /* Makes them take full viewport width */
+    background-color: rgba(8, 8, 233, 0.482); /* Semi-transparent blue background */
+}
+
+/* Centering the box using flexbox on body */
+body {
+    display: flex; /* Enables flexbox layout */
+    align-items: center; /* Vertically centers child elements */
+    justify-content: center; /* Horizontally centers child elements */
+    perspective: 80px; /* Adds depth to 3D transformed elements (Z-axis) */
+}
+
+/* Styling for the main box */
+#box {
+    height: 500px; /* Sets box height */
+    width: 600px; /* Sets box width */
+    background-color: black; /* Fallback color if image doesn’t load */
+
+    /* Adds background image */
+    background-image: url(https://imgs.search.brave.com/bIGlN5Me2se8kEBp_M9VV_gZ3PV5BbmItKTGw8V56Ns/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDQ3ODY1/OTIuanBn);
+
+    background-size: cover; /* Ensures image covers entire box */
+    background-position: center; /* Keeps image centered inside box */
+
+    /* Transform examples (commented out below): */
+
+    /* transform: translateX(-45%); -->  Moves the box left by 45% of its width */
+    /* transform: translateY(20%);    Moves the box down by 20% of its height */
+    /* transform: translateZ(90%);    Moves the box closer/farther along Z-axis */
+
+    /* Rotation examples: */
+    /* transform: rotateX(60deg);     Rotates box 60° around X-axis (vertical tilt) */
+    /* transform: rotateY(40deg);     Rotates box 40° around Y-axis (horizontal tilt) */
+    /* transform: rotateZ(80deg);     Rotates box 80° around Z-axis (flat spin) */
+
+    transform: scale(0.5); /* Shrinks the box to half its size (50%) */
+}
