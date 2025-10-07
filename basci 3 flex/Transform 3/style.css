@@ -41,8 +41,8 @@ body {
 
     /* Rotation examples: */
     /* transform: rotateX(60deg);     Rotates box 60° around X-axis (vertical tilt) */
-    /* transform: rotateY(40deg);     Rotates box 40° around Y-axis (horizontal tilt) */
+     transform: rotateY(3deg);    /*  Rotates box 40° around Y-axis (horizontal tilt) */
     /* transform: rotateZ(80deg);     Rotates box 80° around Z-axis (flat spin) */
 
-    transform: scale(0.5); /* Shrinks the box to half its size (50%) */
+    /* transform: scale(0.5); Shrinks the box to half its size (50%) */
 }
