@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+/* h1{
+    font-size: 100px;
+    background-color: aqua;
+}
+h2{
+    font-size: 100px;
+    background-color: rgb(13, 101, 72);
+}
+a{
+    font-size: 100px;
+     background-color: rgb(220, 131, 22);
+} */
+
+h1 {
+    font-size: larger;
+    background-color: aqua;
+    display: inline-block;
+    /* -->  all the element in one row */
+
+    transform: translateY(70%);
+}
+#parent{
+     /* height: 100%;
+     width: 100%;
+      */
+      
+    border-radius:  2px solid  rgb(236, 230, 230);
+}
+
+
+.chile {
+   
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    border-radius: 10px solid rgb(85, 255, 0);
+
+}
+
+/* now for diffrencr section */
+
+.chile:nth-child(3){
+    background-color: rgb(79, 222, 27);
+}
+/* .chile:nth-child(1){
+    background-color: olivedrab;
+}
+.chile:nth-child(3)
+{
+    background-color: aqua;
+} */
+
+/* 
+2n1--> orde number 
+2n for event number 
+*/
+
+.card:nth-last-child(2n-1){
+    background-color: rgb(2, 80, 98);
+}

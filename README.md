@@ -49,3 +49,16 @@ peiject on flex -->
 
  ![alt text](image.png)
 
+
+
+ color: transparent;
+    background-size: cover;
+    /* background: linear-gradient(red, blueviolet,olivedrab) ; */
+    background-image: url(https://media4.giphy.com/media/v1.Y2lkPTZjMDliOTUyeHRiNmJzN3V5amFnOWc0MTVrcDdqZGthNHZjOTd6YWY4Zjc4Ymc3diZlcD12MV9naWZzX3NlYXJjaCZjdD1n/3og0IQ29pE7zRwbh60/giphy-downsized.gif);
+    /*  I want to ad the coloer on  the text not a baground  */
+    background-clip: text;
+    /* now i want to border to Text  */
+    -webkit-text-stroke: 4px rgb(33, 19, 230);
+    
+ ![alt text](image.png)
+
