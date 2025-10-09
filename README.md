@@ -34,5 +34,18 @@ peiject on flex -->
 <img width="1615" height="783" alt="image" src="https://github.com/user-attachments/assets/2837c1e3-0070-43f7-b0f3-9bef9e0d3eb2" />
 
 
- 
+ topic --> 
+  display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    transition: all ease 0.5s;
+    overflow: hidden;
+     object-fit: cover;
+    border-radius: 50px;
+    object-position: bottom;
+    transition: all ease 0.5s;
+    background: linear-gradient(transparent, rgba(1, 0, 0, 0.955));
+    position: relative;
+
+ ![alt text](image.png)
 
