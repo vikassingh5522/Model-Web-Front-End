@@ -50,6 +50,8 @@ peiject on flex -->
  ![alt text](image.png)
 
 
+ 
+ TEXT  Alnmation
 
  color: transparent;
     background-size: cover;
