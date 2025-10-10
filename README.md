@@ -34,7 +34,8 @@ peiject on flex -->
 <img width="1615" height="783" alt="image" src="https://github.com/user-attachments/assets/2837c1e3-0070-43f7-b0f3-9bef9e0d3eb2" />
 
 
- topic --> 
+Topic --> 
+ 
   display: flex;
     gap: 20px;
     flex-wrap: wrap;
@@ -47,7 +48,8 @@ peiject on flex -->
     background: linear-gradient(transparent, rgba(1, 0, 0, 0.955));
     position: relative;
 
- ![alt text](image.png)
+ 
+<img width="1890" height="829" alt="image" src="https://github.com/user-attachments/assets/7f9368b0-b05b-45bc-b02e-78c1aee85372" />
 
 
  
@@ -62,5 +64,43 @@ peiject on flex -->
     /* now i want to border to Text  */
     -webkit-text-stroke: 4px rgb(33, 19, 230);
     
- ![alt text](image.png)
+ <img width="1800" height="675" alt="image" src="https://github.com/user-attachments/assets/28123573-e281-4490-8066-9a5b1280eb5f" />
+
+
+
+#text{
+    margin-top: 27%;
+    margin-left: 15px;
+    font-size: 124px;
+    position: absolute;
+    color: transparent;
+    text-align: center;
+
+     white-space: nowrap; /* ensures the text stays in one line */
+     
+     -webkit-text-stroke: 2px rgb(255, 162, 0);
+     background-clip: text;
+    background-image: url(https://imgs.search.brave.com/lq1NSJNWCpLL2EUPxKyhV5DF7FWRZChh6NFiZOFBl14/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9naWZk/Yi5jb20vaW1hZ2Vz/L2hpZ2gvdGhlLWF2/ZW5nZXJzLWVuZGdh/bWUtYXNzZW1ibGUt/aHZkYW5uN2RicGc3/bjM1aS5naWY.gif);
+}
+
+  flex-wrap: nowrap;
+    overflow: auto;
+flex-shrink: 0;
+
+#parent::-webkit-scrollbar{
+    display: none;
+    /* background-color: black; */
+
+}
+/* #parent::-webkit-scrollbar-thumb{
+    height: 10px;
+    width: 20px;
+     background-color: aqua;
+} */
+ <img width="1919" height="876" alt="image" src="https://github.com/user-attachments/assets/d5e5a3e1-cb6e-4d93-bba3-17341b941729" />
+
+
+
+
+
 
