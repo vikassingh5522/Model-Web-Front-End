@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: black
+}
+
+main {
+    width: 100%;
+    height: 100%;
+
+    /* display: flex; --> this is use for small project  and  the flex in on Xasix only */
+    display: grid;
+    /* the grid we using for big project and it  for all page and all  X AND  Y axise  */
+    /* grid-template-columns: 20% 20% 10% ; for making the cloums use  this  */
+    /* grid-template-columns: 100px minmax(200px, auto) 100px; in this we using min max  */
+
+    /* fr is fraction  1fr= 50% */
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 1fr 100px;   /* header , section, footer */
+
+    /* for gap */
+    /* gap: 10px;  for all gap 
+    row-gap: 10px;
+    column-gap: 10px */
+
+    /* now grid gap 4 side */
+    grid-gap: 10px;
+
+    /* align-items: start;
+    justify-content: start; */
+
+    /* align-items: end;
+    justify-content: end;  */
+
+     /* align-items: center;
+   justify-content: center;  */
+
+   /* align-content: space-between;
+   justify-content: space-between; */
+
+
+
+}
+
+.child{
+    background-color: rgba(7, 4, 78, 0.645);
+    border: 4px solid rgba(245, 244, 242, 0.794);
+    /* height: 100px;
+    width: 100px; */
+}
+#child1{
+ 
+    grid-column-start:1;
+    grid-column-end:3 ;
+    
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
