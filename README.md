@@ -103,4 +103,57 @@ flex-shrink: 0;
 
 
 
+<!-- .child#child$*9 --> shortcut 
+
+Grid
+   
+ /* display: flex; --> this is use for small project  and  the flex in on Xasix only */
+    display: grid;
+    /* the grid we using for big project and it  for all page and all  X AND  Y axise  */
+    /* grid-template-columns: 20% 20% 10% ; for making the cloums use  this  */
+    /* grid-template-columns: 100px minmax(200px, auto) 100px; in this we using min max  */
+
+/* fr is fraction  1fr= 50% */
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 1fr 100px;   /* header , section, footer */
+
+
+<img width="1919" height="894" alt="image" src="https://github.com/user-attachments/assets/c09560ab-58f5-4ad2-a3c9-c4a28c66ec95" />
+
+grid-column-start:1;
+ grid-column-end:3 ;
+    
+ grid-row-start: 1;
+    grid-row-end: 2;
+
+ /* now grid gap 4 side */
+    grid-gap: 10px;
+
+ /* align-items: start;
+    justify-content: start; */
+
+/* align-items: end;
+    justify-content: end;  */
+
+  /* align-items: center;
+   justify-content: center;  */
+
+   /* align-content: space-between;
+   justify-content: space-between; */
+
+
+<img width="1919" height="906" alt="image" src="https://github.com/user-attachments/assets/01cfdf3a-4daa-431b-a51a-cd65b326ad3b" />
+
+
+
+
+
+
+
+
+
+
+
+
+
 
