@@ -170,5 +170,6 @@ display: grid;
 
 
 
+<img width="1907" height="892" alt="image" src="https://github.com/user-attachments/assets/e72e0fbb-3277-4ad3-b144-f96ffa1fc0fc" />
 
 
