@@ -145,7 +145,18 @@ grid-column-start:1;
 <img width="1919" height="906" alt="image" src="https://github.com/user-attachments/assets/01cfdf3a-4daa-431b-a51a-cd65b326ad3b" />
 
 
+display: grid;
+    grid-template-columns: 400px 1fr;
+    grid-template-rows: 90px 1fr 100px;
 
+ grid-template-areas: "header header"
+      "aside section"
+        "footer footer"
+    ;
+    padding: 10px 10px;
+    grid-gap: 10px;
+
+<img width="1913" height="897" alt="image" src="https://github.com/user-attachments/assets/0af35d34-71fd-4bb2-82e0-49d75c47ba97" />
 
 
 
