@@ -1,0 +1,11 @@
+units
+ 
+1 -> px(pixels)  - (fixed)   
+2 ->  % (percent) - depends on parent 
+3 -> vw (viewport width) --> depends on (full screen )viewport's not fixed  according to screen
+4 -> vh (viewport heght ) --> same  
+5 -> vmax (viewport maximum) --> depends on maximum viewport
+6 -> vmin (viewport min) -->same
+7 -> em  ->  according to the parent and canbe conteolled by percent  --> eg 1} 20px = 1em 40px  2}   40*2 = 60 = 2 em
+8 -> rem  -> according to the root and can be conteolled by root  (root em )  -> 1 rem = 60px
+9 ->
