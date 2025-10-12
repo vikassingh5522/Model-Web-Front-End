@@ -173,3 +173,22 @@ display: grid;
 <img width="1907" height="892" alt="image" src="https://github.com/user-attachments/assets/e72e0fbb-3277-4ad3-b144-f96ffa1fc0fc" />
 
 
+
+display: grid;
+    grid-template-columns: 1fr 600px 1fr ;
+    grid-template-rows: 1fr 1fr 1fr ;
+    grid-template-areas: "left-top  top-center top-right "
+                         "left-top  center  bottom-right"
+                        "left-bottom  left-bottom  bottom-right"
+    ;
+    grid-gap: 10px;
+    padding: 20px 20px;
+
+ grid-area: left-top;
+    border-radius: 75px;
+    background-image: url("https://i.pinimg.com/1200x/ec/21/8f/ec218fd944f4b0108f73467b1a7f87fa.jpg");
+    background-size: cover;       /* or 'contain' depending on your need */
+    background-position: center;  /* centers the image */
+    background-repeat: no-repeat; /* prevents tiling */
+
+<img width="1916" height="897" alt="image" src="https://github.com/user-attachments/assets/72e62c39-2743-4f1e-be8c-4b39c0d47f81" />
