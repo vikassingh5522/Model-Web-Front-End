@@ -1,0 +1,35 @@
+@import "button";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+main {
+    height: 100%;
+    width: 100%;
+    @include flex-center(); // default background color
+
+    section {
+        height: 50%;
+        width: 40%;
+        // background-color: aqua;
+        @include flex-center(rgb(71, 146, 216));
+        border-radius: 100px;
+        @include bg-img();
+
+        h1 {
+            margin: 40px 60px;
+            font-size: 70px;
+            @include flex-center(rgb(224, 21, 21))
+        }
+    }
+}

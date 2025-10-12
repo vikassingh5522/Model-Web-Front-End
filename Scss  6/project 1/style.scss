@@ -1,0 +1,58 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    display: flex; //1 this parent 
+    // gap: 1px;
+
+    section{
+        height: 100%;
+        flex-grow:1 ; // 2 this child 
+        background-color: rgb(9, 150, 103);
+        // border: 1px solid black;
+        background-size: cover;
+        background-position: center;
+        cursor: pointer;
+         transition: all 0.9s cubic-bezier(0.77, 0, 0.175, 1);
+    }   
+    section:hover{
+        flex-grow: 2;
+
+    }
+
+    section:nth-child(1)
+    {
+        background-image: url(https://i.pinimg.com/736x/7a/99/04/7a99048b67dd1f6d87daf52d98a2d7e7.jpg);
+    }
+
+    section:nth-child(2)
+    {
+        background-image: url(https://i.pinimg.com/1200x/67/4e/50/674e50f886730f59b9ed9a41403a98bb.jpg);
+    }
+    section:nth-child(3)
+    {
+        background-image: url(https://i.pinimg.com/1200x/19/39/19/1939198fe48845fef803aa2a30939510.jpg);
+    }
+    section:nth-child(4)
+    {
+        background-image: url(https://i.pinimg.com/1200x/5e/6e/a5/5e6ea5256ec9bf4ae2c2366c8fd5a25e.jpg);
+    }
+    section:nth-child(5)
+    {
+        background-image: url(https://i.pinimg.com/736x/4e/62/92/4e62929e7fbc4865e9146527a30f57e2.jpg);
+    }
+}

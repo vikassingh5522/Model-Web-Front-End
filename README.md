@@ -192,3 +192,8 @@ display: grid;
     background-repeat: no-repeat; /* prevents tiling */
 
 <img width="1916" height="897" alt="image" src="https://github.com/user-attachments/assets/72e62c39-2743-4f1e-be8c-4b39c0d47f81" />
+
+
+Scss Project 
+
+<img width="1919" height="904" alt="image" src="https://github.com/user-attachments/assets/fa365333-089a-4405-8993-c9e251d73fcc" />

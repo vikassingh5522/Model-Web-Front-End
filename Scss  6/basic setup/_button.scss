@@ -1,0 +1,17 @@
+
+// mixin Helps avoid code repetition.  it is like componunt
+
+@mixin flex-center($bg-color: rgba(118, 121, 28, 0.952)) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $bg-color;
+    //   background-image: url(https://i.pinimg.com/1200x/ed/8a/4e/ed8a4e469f05d939c285d51fc425a109.jpg);
+}
+
+@mixin bg-img() {
+    background-size: cover;
+    background-position: center;
+    // background-repeat: no-repeat; 
+    background-image: url(https://i.pinimg.com/1200x/ed/8a/4e/ed8a4e469f05d939c285d51fc425a109.jpg);
+}
