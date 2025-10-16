@@ -39,7 +39,16 @@
 
 1 vw= 5px
 50vw = 250px
+
+
 ---
+html
+body 
+section
+main 
+side bar 
+
+default size is--> 16 px 
 
 ### 🧩 **3. Examples**
 
@@ -68,4 +77,13 @@ html {
 | **Absolute** | `px`, `pt`, `cm`, `mm`, `in`                             | Fixed, no scaling         |
 | **Relative** | `%`, `em`, `rem`, `vw`, `vh`, `vmax`, `vmin`, `ch`, `ex` | Parent, root, or viewport |
 
+
+rem => Depends on root <html>
+em  nearest ->  ancenstor Depends
+vw / vh -> viewport  width,height
+%-> prent element dimation par 
+clamp(lowerlimit  , value ,upperlimit)
+clamp ( 14px , 1vw , 18px)
+100vw = 1600px
+1vm = 16px
 
