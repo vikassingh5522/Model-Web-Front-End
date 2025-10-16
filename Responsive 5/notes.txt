@@ -1,11 +1,71 @@
-units
- 
-1 -> px(pixels)  - (fixed)   
-2 ->  % (percent) - depends on parent 
-3 -> vw (viewport width) --> depends on (full screen )viewport's not fixed  according to screen
-4 -> vh (viewport heght ) --> same  
-5 -> vmax (viewport maximum) --> depends on maximum viewport
-6 -> vmin (viewport min) -->same
-7 -> em  ->  according to the parent and canbe conteolled by percent  --> eg 1} 20px = 1em 40px  2}   40*2 = 60 = 2 em
-8 -> rem  -> according to the root and can be conteolled by root  (root em )  -> 1 rem = 60px
-9 ->
+
+
+## 🎯 **CSS Units Explained**
+
+---
+
+### 🔹 **1. Absolute Units**
+
+> Fixed — do **not** change based on screen size or parent elements.
+
+| Unit | Meaning                  | Example            | Notes                            |
+| ---- | ------------------------ | ------------------ | -------------------------------- |
+| `px` | Pixels                   | `width: 200px;`    | Commonly used for fixed layouts. |
+| `pt` | Points (1pt = 1/72 inch) | `font-size: 12pt;` | Used mostly for print media.     |
+| `cm` | Centimeters              | `width: 5cm;`      | Physical unit.                   |
+| `mm` | Millimeters              | `height: 10mm;`    | Physical unit.                   |
+| `in` | Inches (1in = 96px)      | `width: 2in;`      | Physical unit, rarely used.      |
+
+🧠 **Tip:** Absolute units are rarely used for web — more for print styles.
+
+---
+
+### 🔹 **2. Relative Units**
+
+> Scale **relative** to something (parent, root, or viewport).
+
+| Unit   | Relative To              | Example              | Explanation                                        |
+| ------ | ------------------------ | -------------------- | -------------------------------------------------- |
+| `%`    | Parent element           | `width: 50%;`        | 50% of parent’s width.                             |
+| `em`   | Parent’s font size       | `font-size: 2em;`    | If parent font-size = 20px → 2em = 40px.           |
+| `rem`  | Root (`html`) font size  | `font-size: 1.5rem;` | If root font-size = 16px → 1.5rem = 24px.          |
+| `vw`   | Viewport width           | `width: 50vw;`       | 50% of browser width.                              |
+| `vh`   | Viewport height          | `height: 50vh;`      | 50% of browser height.                             |
+| `vmax` | Larger of `vw` or `vh`   | `font-size: 10vmax;` | Depends on whichever is bigger (width or height).  |
+| `vmin` | Smaller of `vw` or `vh`  | `font-size: 10vmin;` | Depends on whichever is smaller (width or height). |
+| `ch`   | Width of “0” character   | `width: 40ch;`       | Useful for text areas or monospace layouts.        |
+| `ex`   | x-height of current font | `height: 2ex;`       | Rarely used; relative to lowercase “x” height.     |
+
+
+1 vw= 5px
+50vw = 250px
+---
+
+### 🧩 **3. Examples**
+
+```css
+html {
+  font-size: 16px;  /* 1rem = 16px */
+}
+
+.container {
+  width: 80%;       /* 80% of parent width */
+  font-size: 1.5em; /* 1.5 × parent's font-size */
+}
+
+.text {
+  font-size: 2rem;  /* 2 × root font-size = 32px */
+  margin: 5vh 10vw; /* responsive to viewport */
+}
+```
+
+---
+
+### 💡 **Quick Recap**
+
+| Type         | Unit Examples                                            | Depends On                |
+| ------------ | -------------------------------------------------------- | ------------------------- |
+| **Absolute** | `px`, `pt`, `cm`, `mm`, `in`                             | Fixed, no scaling         |
+| **Relative** | `%`, `em`, `rem`, `vw`, `vh`, `vmax`, `vmin`, `ch`, `ex` | Parent, root, or viewport |
+
+
